@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/homepage_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #555;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    color: #A84F91;
+    padding: 1em;
+    font-size: 2em;
+    font-family: 'Lobster Two', cursive;
+}
+
+.main-logo-link {
+    width: fit-content;
+    display: flex;
+}
+
+.browse-button {
+    background: #A84F91;
+    color: white;
+    min-width: 260px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50vh;
+    margin-right: 25vh;
+}
+
+.btn-black {
+    background: #2e2836;
+    color: white;
+}
+
+.browse-button:hover,
+.browse-button:active,
+.browse-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #2e2836;
+    color: white;
+}
+
+.text-black {
+    color: #2e2836 !important;
+}
+
+.border-black {
+    border: 1px solid #2e2836 !important;
+}
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+  }
+
