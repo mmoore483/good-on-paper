@@ -20,7 +20,7 @@ body {
 .logo-font {
     color: #A84F91;
     padding: 1em;
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Lobster Two', cursive;
 }
 
@@ -75,6 +75,17 @@ body {
     background-color: #EFE887;
 }
 
+.socials {
+    padding: 0.5em;
+}
+
+.footer-text {
+    font-size: 2em;
+    color: #A84F91;
+    padding: 1em;
+    font-family: 'Lobster Two', cursive;
+
+}
 
 /* -------------------------------- Media Queries */
 
