@@ -8,6 +8,10 @@ body {
     color: #555;
 }
 
+.book-card{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
 /* from Bulma */
 .icon {
     align-items: center;
@@ -174,4 +178,12 @@ body {
         border-bottom-left-radius: 16px;
         border-bottom-right-radius: 16px;
     }
+}
+
+.checkout-summary{
+    background-color: #A84F91;
+}
+
+.checkout-card {
+    border-radius: 15px;
 }

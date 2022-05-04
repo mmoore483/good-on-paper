@@ -11,18 +11,18 @@
 
 {% block content %}
 <!-- HTMl structure modified from https://mdbootstrap.com/docs/standard/extended/shopping-carts/ -->
-<section class="h-100 h-custom" style="background-color: #d2c9ff;">
+<section class="h-100 h-custom checkout-summary">
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12">
-                <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card card-registration card-registration-2 checkout-card">
                     <div class="card-body p-0">
                         <div class="row g-0">
                             <div class="col-lg-8">
                                 <div class="p-5">
                                     <div class="d-flex justify-content-between align-items-center mb-5">
                                         <h1 class="fw-bold mb-0 text-black">Book Bag</h1>
-                                        <h6 class="mb-0 text-muted">3 items</h6>
+                                        <h6 class="mb-0 text-muted">{{ book_count }} Books</h6>
                                     </div>
                                     <hr class="my-4">
 
@@ -34,6 +34,7 @@
                                         </div>
                                         <div class="col-md-3 col-lg-3 col-xl-3">
                                             <h6 class="text-black mb-0">{{ item.book.title }}</h6>
+                                            <br>
                                             <h6 class="text-black mb-0">{{ item.book.author }}</h6>
                                         </div>
                                         <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
@@ -73,20 +74,19 @@
                                     <hr class="my-4">
 
                                     <div class="d-flex justify-content-between mb-4">
-                                        <h5 class="text-uppercase">items 3</h5>
+                                        <h5 class="text-uppercase inline"> {{ book_count }} Items</h5>
                                         <h5>£{{ total|floatformat:2 }}</h5>
                                     </div>
 
-                                    <h5 class="text-uppercase mb-3">Shipping</h5>
-
-                                    <div class="mb-4 pb-2">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <h5 class="text-uppercase"> Shipping</h5>
                                         <h5>£{{ delivery|floatformat:2 }}</h5>
                                     </div>
 
                                     <hr class="my-4">
 
-                                    <div class="d-flex justify-content-between mb-5">
-                                        <h5 class="text-uppercase">Total price</h5>
+                                    <div class="d-flex justify-content-between mb-4 text-uppercase">
+                                        <h5 class="text-uppercase"> Total Price</h5>
                                         <h5>£{{ grand_total|floatformat:2 }}</h5>
                                     </div>
 
