@@ -5,32 +5,36 @@
                 All Books
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Genre</a>
-                <a href="" class="dropdown-item">All Books</a>
+                <a href="{% url 'books' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'books' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'books' %}?sort=title&direction=asc" class="dropdown-item">All Books</a>
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="menu-text font-weight-bold nav-link text-black mr-5" href="#" id="fiction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Fiction
+            <a class="menu-text font-weight-bold nav-link text-black mr-5" href="#" id="sciencefiction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Science Fiction
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="fiction-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Genre</a>
-                <a href="" class="dropdown-item">All Books</a>
+            <div class="dropdown-menu border-0" aria-labelledby="Science-Fiction-link">
+                <a href="{% url 'books' %}?genres=science&sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'books' %}?genres=science&sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="menu-text font-weight-bold nav-link text-black mr-5" href="#" id="nonfiction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Non-Fiction
+            <a class="menu-text font-weight-bold nav-link text-black mr-5" href="#" id="historicalfiction-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Historical Fiction
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="nonfiction-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Genre</a>
-                <a href="" class="dropdown-item">All Books</a>
+            <div class="dropdown-menu border-0" aria-labelledby="Historical-Fiction-link">
+                <a href="{% url 'books' %}?genres=historical&sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'books' %}?genres=historical&sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="menu-text font-weight-bold nav-link text-black mr-5" href="#" id="fantasy-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Fantasy
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="fantasy-link">
+                <a href="{% url 'books' %}?genres=fantasy&sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'books' %}?genres=fantasy&sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
             </div>
         </li>
     </ul>
