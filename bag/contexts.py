@@ -1,4 +1,3 @@
-# This code is from the Boutqiue-Ado WalkThrough from the Code Institute
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
@@ -12,14 +11,13 @@ def bag_contents(request):
     book_count = 0
     bag = request.session.get('bag', {})
 
-
-    for item_id, quantity in bag.items():
+    for item_id, item_data in bag.items():
         book = get_object_or_404(Book, pk=item_id)
-        total += quantity * book.price
-        book_count += quantity
+        total += item_data * book.price
+        book_count += item_data
         bag_items.append({
             'item_id': item_id,
-            'quantity': quantity,
+            'quantity': item_data,
             'book': book,
         })
 
