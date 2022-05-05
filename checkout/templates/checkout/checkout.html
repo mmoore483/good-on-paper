@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+
+{% block content %}
+<section>
+    {% for item in bag_items %}
+    <div class="row">
+        <div class="col-7">
+            <p class="my-0"><strong>{{ item.book.name }}</strong></p>
+            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+        </div>
+        <div class="col-3 text-right">
+            <p class="my-0 small text-muted">${{ item.book.price | calc_subtotal:item.quantity }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    <fieldset class="px-3">
+        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+        <!-- A Stripe card element will go here -->
+        <div class="mb-3" id="card-element"></div>
+        <!-- Used to display form errors -->
+        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+        <!-- Pass the client secret to the view so we can get the payment intent id -->
+        <input type="hidden" value="{{ client_secret }}" name="client_secret">
+    </fieldset>
+    <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+    </form>
+</section>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{{ stripe_public_key|json_script:"id_stripe_public_key" }}
+{{ client_secret|json_script:"id_client_secret" }}
+<script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
+{% endblock %}
