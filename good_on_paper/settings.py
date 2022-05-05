@@ -64,7 +64,7 @@ ROOT_URLCONF = 'good_on_paper.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-       	'DIRS': [
+        'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
@@ -73,40 +73,45 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
+                'django.contrib.auth.context_processors.auth',  # required by allauth
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
 
-SITE_ID = 1
+SITE_ID= 1
 
-AUTHENTICATION_BACKENDS = [
+AUTHENTICATION_BACKENDS= [
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND= 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
-ACCOUNT_USERNAME_MIN_LENGTH = 4
-LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/'
+ACCOUNT_AUTHENTICATION_METHOD= 'username_email'
+ACCOUNT_EMAIL_REQUIRED= True
+ACCOUNT_EMAIL_VERIFICATION= 'mandatory'
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE= True
+ACCOUNT_USERNAME_MIN_LENGTH= 4
+LOGIN_URL= '/accounts/login/'
+LOGIN_REDIRECT_URL= '/'
 
-WSGI_APPLICATION = 'good_on_paper.wsgi.application'
+WSGI_APPLICATION= 'good_on_paper.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
+DATABASES= {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
@@ -136,36 +141,36 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE= 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE= 'UTC'
 
-USE_I18N = True
+USE_I18N= True
 
-USE_L10N = True
+USE_L10N= True
 
-USE_TZ = True
+USE_TZ= True
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_URL= '/static/'
+STATICFILES_DIRS= (os.path.join(BASE_DIR, 'static'),)
+MEDIA_URL= '/media/'
+MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD= 'django.db.models.BigAutoField'
 
-FREE_DELIVERY_THRESHOLD = 75
-STANDARD_DELIVERY_PERCENTAGE = 10
+FREE_DELIVERY_THRESHOLD= 75
+STANDARD_DELIVERY_PERCENTAGE= 10
 
-MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+MESSAGE_STORAGE= 'django.contrib.messages.storage.session.SessionStorage'
 
-STRIPE_CURRENCY = 'gbp'
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+STRIPE_CURRENCY= 'gbp'
+STRIPE_PUBLIC_KEY= os.getenv('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY= os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET= os.getenv('STRIPE_WH_SECRET', '')
