@@ -8,10 +8,11 @@ body {
     color: #555;
 }
 
-.book-card{
+.book-card {
     padding-bottom: 5vh;
     padding-top: 5vh;
 }
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -117,11 +118,14 @@ body {
 }
 
 @media (min-width: 768px) and (max-width:1440px) {
-    .logo-font, .menu-text, .footer-text{
+
+    .logo-font,
+    .menu-text,
+    .footer-text {
         font-size: 1.5em;
         padding: 0.5em;
     }
-    
+
     .header-container {
         padding-top: 100px;
     }
@@ -129,7 +133,10 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .logo-font, .menu-text, .footer-text {
+
+    .logo-font,
+    .menu-text,
+    .footer-text {
         font-size: 1em;
         padding: 0.25em;
     }
@@ -180,7 +187,7 @@ body {
     }
 }
 
-.checkout-summary{
+.checkout-summary {
     padding-top: 10vh;
     padding-bottom: 10vh;
     background-color: #A84F91;
@@ -188,4 +195,21 @@ body {
 
 .checkout-card {
     border-radius: 15px;
+}
+
+
+/* ------------------------------- bootstrap toasts */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
