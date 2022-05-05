@@ -39,7 +39,7 @@
                                         </div>
 
 
-                                        <form class="form update-form" action="" method="POST">
+                                        <form class="form update-form" action="{% url 'adjust_bag' item.item_id %}" method="POST">
                                             {% csrf_token %}
                                             <div class="form-row">
                                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
