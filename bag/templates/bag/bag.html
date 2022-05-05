@@ -112,10 +112,10 @@
                                         <h5 class="text-uppercase"> Total Price</h5>
                                         <h5>£{{ grand_total|floatformat:2 }}</h5>
                                     </div>
-                                    <form action="{% url 'checkout' %}" method="POST">
-                                        <button type="button" class="btn btn-dark btn-block btn-lg"
-                                            data-mdb-ripple-color="dark">Place Order</button>
-                                    </form>
+
+                                    <a href="{% url 'checkout' %}" class="btn btn-dark btn-block btn-lg"
+                                        data-mdb-ripple-color="dark">Place Order</a>
+
                                 </div>
                             </div>
                         </div>

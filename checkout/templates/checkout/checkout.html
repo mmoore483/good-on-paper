@@ -15,21 +15,22 @@
             <p class="my-0"><strong>{{ item.book.name }}</strong></p>
             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
         </div>
-        <div class="col-3 text-right">
-            <p class="my-0 small text-muted">${{ item.book.price | calc_subtotal:item.quantity }}</p>
-        </div>
     </div>
     {% endfor %}
-    <fieldset class="px-3">
-        <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
-        <!-- A Stripe card element will go here -->
-        <div class="mb-3" id="card-element"></div>
-        <!-- Used to display form errors -->
-        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
-        <!-- Pass the client secret to the view so we can get the payment intent id -->
-        <input type="hidden" value="{{ client_secret }}" name="client_secret">
-    </fieldset>
-    <form action="/create-checkout-session" method="POST">
+    <div class="col-3 text-right">
+        <p class="my-0 small text-muted">{{ grand_total }}</p>
+    </div>
+    <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+        {% csrf_token %}
+        <fieldset class="px-3">
+            <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+            <!-- A Stripe card element will go here -->
+            <div class="mb-3" id="card-element"></div>
+            <!-- Used to display form errors -->
+            <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+            <!-- Pass the client secret to the view so we can get the payment intent id -->
+            <input type="hidden" value="{{ client_secret }}" name="client_secret">
+        </fieldset>
         <button type="submit" id="checkout-button">Checkout</button>
     </form>
 </section>
