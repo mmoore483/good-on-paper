@@ -42,9 +42,9 @@ def checkout(request):
                     )
                     order_line_item.save()
 
-                except Product.DoesNotExist:
+                except Book.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the books in your bag wasn't found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
@@ -60,7 +60,7 @@ def checkout(request):
         if not bag:
             messages.error(
                 request, "There's nothing in your bag at the moment")
-            return redirect(reverse('products'))
+            return redirect(reverse('books'))
 
         current_bag = bag_contents(request)
         total = current_bag['grand_total']

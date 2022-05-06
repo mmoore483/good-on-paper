@@ -47,6 +47,9 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'customer',
+
+    # Other
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +63,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'good_on_paper.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
