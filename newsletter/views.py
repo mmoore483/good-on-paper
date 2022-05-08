@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.core.mail import send_mail
+from django.conf import settings
+from django.contrib.auth.models import User
 
 from .models import CreateNewsletter
 from .forms import CreateNewsletterForm
@@ -16,8 +19,19 @@ def create_newsletter(request):
     if request.method == 'POST':
         letter_form = CreateNewsletterForm(request.POST, request.FILES)
         if letter_form.is_valid():
+            subject = letter_form.cleaned_data['subject']
+            message = letter_form.cleaned_data['message']
+            image = letter_form.cleaned_data['image']
             letter_form.save()
             messages.success(request, 'Successfully created newsletter!')
+            recipients = User.objects.values_list('email', flat=True)
+            send_mail(
+                subject,
+                message,
+                settings.EMAIL_HOST_USER,
+                recipients,
+                fail_silently=False,
+            )
         else:
             messages.error(request,
                            ('Failed to create newsletter. '
