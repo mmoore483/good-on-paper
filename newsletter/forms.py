@@ -8,5 +8,3 @@ class CreateNewsletterForm(forms.ModelForm):
         model = CreateNewsletter
         fields = ('subject', 'message', 'image')
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)

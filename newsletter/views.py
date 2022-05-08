@@ -25,8 +25,8 @@ def create_newsletter(request):
  
         return redirect("create_newsletter")
     
-    letter_form = CreateNewsletter()
-    letters = CreateNewsletterForm.objects.all()
+    letter_form = CreateNewsletterForm()
+    letters = CreateNewsletter.objects.all()
     template = 'newsletter/create_letter.html'
     context = {
         'letter_form': letter_form,
