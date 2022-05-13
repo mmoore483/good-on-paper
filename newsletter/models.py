@@ -9,3 +9,9 @@ class CreateNewsletter(models.Model):
 
     def __str__(self):
         return self.subject
+
+
+class SignUpLetter(models.Model):
+    email = models.EmailField(max_length=254, null=False, blank=False)
+    name = models.CharField(max_length=200, null=True, blank=True)
+    signed_up = models.BooleanField(default=True)
