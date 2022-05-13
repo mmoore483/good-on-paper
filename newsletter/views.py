@@ -59,29 +59,36 @@ def signup_newsletter(request):
             email = signup_form.cleaned_data['email']
             name = signup_form.cleaned_data['name']
             signbool = signup_form.cleaned_data['signed_up']
-            signup_form.save()
-            if signbool is True:
-                messages.success(request, 'Successfully signed up!')
+            checking = SignUpLetter.objects.filter(email__iexact=email).exists()
+            print(checking)
+            if SignUpLetter.objects.filter(email__iexact=email).exists():
+
+                if signbool is True:
+                    messages.success(request, "You're all signed up!")
+                else:
+                    messages.success(
+                        request, 'Successfully removed from the mailing list')
+                    SignUpLetter.objects.filter(email__iexact=email).update(signed_up=False)
+
+            else:
+                signup_form.save()
                 email_message = (
                     f"Hi {name}."
                     f"Thank you for signing up to the Good On Paper Newsletter!"
                     f"We'll keep you update with all the latest offers and books!"
                 )
-                send_mail(
-                    "Good On Paper Newsletter",
-                    email_message,
-                    settings.EMAIL_HOST_USER,
-                    email,
-                    fail_silently=False,
-                )
-            else:
-                messages.success(request, 'Successfully removed from the mailing list')
+                recipient = (email,)
+                # send_mail(
+                #     "Good On Paper Newsletter",
+                #     email_message,
+                #     settings.EMAIL_HOST_USER,
+                #     recipient,
+                #     fail_silently=False,
+                # )                  
         else:
             messages.error(request,
                            ('Failed to sign up to the newsletter '
                             'Please ensure the form is valid.'))
-
-        return redirect("letter_signup.html")
 
     signup_form = SignUpLetterForm()
     signup = SignUpLetter.objects.all()
@@ -92,3 +99,5 @@ def signup_newsletter(request):
     }
 
     return render(request, template, context)
+
+
