@@ -78,13 +78,13 @@ def signup_newsletter(request):
                     f"We'll keep you update with all the latest offers and books!"
                 )
                 recipient = (email,)
-                # send_mail(
-                #     "Good On Paper Newsletter",
-                #     email_message,
-                #     settings.EMAIL_HOST_USER,
-                #     recipient,
-                #     fail_silently=False,
-                # )                  
+                send_mail(
+                    "Good On Paper Newsletter",
+                    email_message,
+                    settings.EMAIL_HOST_USER,
+                    recipient,
+                    fail_silently=False,
+                )                  
         else:
             messages.error(request,
                            ('Failed to sign up to the newsletter '
