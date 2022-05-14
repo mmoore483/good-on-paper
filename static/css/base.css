@@ -59,7 +59,7 @@ body {
 }
 
 .text-black {
-    color: #2e2836; !important;
+    color: #2e2836 !important;
     font-family: 'Lato', sans-serif;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .bg-black {
-    background: #2e2836; !important;
+    background: #2e2836 !important;
 }
 
 .banner {
