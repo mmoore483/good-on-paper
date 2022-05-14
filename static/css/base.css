@@ -120,6 +120,10 @@ body {
     width: 200px;    
 }
 
+.bag-bottom {
+    margin-bottom: 5em;
+}
+
 a.category-badge > span.badge:hover {
     background: #2e2836 !important;
     color: #fff !important;
@@ -300,6 +304,12 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 /* fixed top navbar only on medium and up */
