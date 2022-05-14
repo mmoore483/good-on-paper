@@ -2,6 +2,7 @@ html {
     height: 100%;
 }
 
+
 body {
     background: url('/media/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -97,7 +98,7 @@ body {
 .footer-text {
     font-size: 1em;
     color: #A84F91;
-    padding: 1em;
+    padding-bottom: 0.5em;
     font-family: 'Lobster Two', cursive;
 }
 
@@ -109,6 +110,14 @@ body {
 	position: fixed;
 	background: white;
 	z-index: -1;
+}
+
+.book-container {
+    margin-top: 177.56px;
+}
+
+.book-cover {
+    width: 200px;    
 }
 
 a.category-badge > span.badge:hover {
@@ -313,6 +322,10 @@ input[name='q']::placeholder {
 
     .banner-text {
         font-size: 1.5em;
+    }
+
+    .book-container {
+        margin-top: 480px;
     }
 
 }
