@@ -10,15 +10,6 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
 .logo-font {
     color: #A84F91;
     padding: 1em;
@@ -72,7 +63,7 @@ body {
 }
 
 .border-black {
-    border: 1px solid #2e2836; !important;
+    border: 1px solid #2e2836 !important;
 }
 
 .button-wrapper {
@@ -81,8 +72,13 @@ body {
 }
 
 .menu-text {
-    font-size: 2em;
+    font-size: 1em;
     padding: 1em;
+}
+
+.banner-text {
+    font-size: 1em;
+    padding: 0.5em;
 }
 
 .bg-black {
@@ -95,11 +91,11 @@ body {
 
 .socials {
     padding: 0.5em;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .footer-text {
-    font-size: 2em;
+    font-size: 1em;
     color: #A84F91;
     padding: 1em;
     font-family: 'Lobster Two', cursive;
@@ -310,6 +306,15 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 164px;
     }
+
+    .menu-text {
+        font-size: 2em;
+    }
+
+    .banner-text {
+        font-size: 1.5em;
+    }
+
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */

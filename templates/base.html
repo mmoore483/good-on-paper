@@ -64,7 +64,7 @@
               placeholder="Search our site">
             <div class="input-group-append">
               <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                <span class="icon">
+                <span class="">
                   <i class="fas fa-search"></i>
                 </span>
               </button>
@@ -73,7 +73,7 @@
         </form>
       </div>
       <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-        <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+        <ul class="list-inline list-unstyled white-space:nowrap text-center text-lg-right my-0">
           <li class="list-inline-item dropdown">
             <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
@@ -122,8 +122,8 @@
       </nav>
   </div>
   <div id="delivery-banner" class="row text-center banner">
-      <div class="col">
-          <h2 class="menu-text text-black">Free delivery on orders over £{{ free_delivery_threshold }}!</h2>                
+      <div class="w-100">
+          <h2 class="banner-text text-black">Free delivery on orders over £{{ free_delivery_threshold }}!</h2>                
       </div>            
   </div>
   </header>
@@ -134,13 +134,13 @@
   {% endblock %}
 
   <footer>
-    <div class="footer fixed-bottom banner" id="footer">
+    <div class="fixed-bottom banner" id="footer">
       <div class="container">
-        <div class="row">
-          <span class="col text-left">
+        <div class="row justify-content-between align-items-center">
+          <span class="col text-center">
             <h1 class="footer-text">Copyright &copy; Good On Paper 2022</h1>
           </span>
-          <span class="col text-right">
+          <span class="col d-inline-flex justify-content-center">
             <a class="text-black" href="https://www.facebook.com/" target="_blank" rel="noopener"
               aria-label="facebook page (opens in a new tab)"><i class="fab fa-facebook socials"></i>
             </a>
