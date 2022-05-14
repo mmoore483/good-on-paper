@@ -327,7 +327,6 @@ input[name='q']::placeholder {
     .book-container {
         margin-top: 480px;
     }
-
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
