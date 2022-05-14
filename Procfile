@@ -1,0 +1,1 @@
+web: gunicorn good_on_paper.wsgi:application
