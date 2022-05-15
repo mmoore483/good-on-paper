@@ -11,6 +11,8 @@ body {
     font-family: 'Lato';
 }
 
+/* General Styles */
+
 .logo-font {
     color: #A84F91;
     padding: 1em;
@@ -37,7 +39,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -100,6 +102,13 @@ body {
     color: #A84F91;
     padding-bottom: 0.5em;
     font-family: 'Lobster Two', cursive;
+}
+
+.privacy-policy {
+    font-size: 1em;
+    color: #2e2836 !important;
+    padding-bottom: 0.5em;
+    font-family: 'Lato', sans-serif;
 }
 
 .overlay {
@@ -339,7 +348,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
