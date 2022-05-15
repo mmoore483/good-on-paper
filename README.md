@@ -62,14 +62,15 @@ Points of difference from intended wireframe:
 - The Mailing List menu items takes the user to a sign up form as mentioned below. 
 - Rather than sign up/log in, there is a book icon titled My Account which contains a drop down to sign up/log in if not authenticated or if authenticated, to view order history (mentioned below) or logout. 
 
-![Home Page Actual Mobile](READMEImages/Home-actual-mobile.png)
-![Home Page Actual Laptop](READMEImages/Home-actual-Laptop.png)
+![Home Page Actual Mobile](READMEImages/home-actual-mobile.PNG)
+![Home Page Actual Laptop](READMEImages/home-actual-laptop.PNG)
 
 <strong>Sign In/ Sign Out/ Sign Up AllAuth Forms - As Deployed</strong>
 
 Account creation was intended to be done with simple AllAuth forms thus no specific wireframe was created for them. In future, these could be further styled for a more enjoyable experience although they are completely functional. 
 
-![Log In Page]()
+![Log In Page](READMEImages/signin-actual-mobile.PNG)
+![Log In Page](READMEImages/signin-actual-laptop.PNG)
 
 <strong>Books (All products page) - Wireframe</strong>
 
@@ -82,8 +83,8 @@ In keeping with the rest of the site, the navbar/menu and footer are consistent.
 Parameters chosen for searching are: price, rating, title, author. There are no points of deviation from the original wireframe.   
 
 
-![Book Product Page](READMEImages/Books-actual-mobile.png)
-![Book Product Page](READMEImages/Books-actual-laptop.png)
+![Book Product Page](READMEImages/Books-actual-mobile.PNG)
+![Book Product Page](READMEImages/Books-actual-laptop.PNG)
 
 <strong>Book Details - Wireframe</strong>
 Again, the top nav/menu and footer will remain the same. The book details will be displayed with the book cover image and book details as shown previously however, this time, it will also contain the book description (or blurb) as further details. The user will also be able to define a quantity and it to the bag or return to browsing the books. Where no book cover image is available, the Good On Paper Logo will be used. 
@@ -94,8 +95,8 @@ Again, the top nav/menu and footer will remain the same. The book details will b
 <strong>Book Details - Deployed</strong>
 For mobile, the book cover image is reduced and the details are stacked upon one another as shown below. Otherwise, there are no points of difference from the original wireframe.
 
-![Book Detail Page](READMEImages/book_detail-atual-mobile.png)
-![Book Detail Page](READMEImages/book_detail-atual-laptop.png)
+![Book Detail Page](READMEImages/book_detail-actual-mobile.PNG)
+![Book Detail Page](READMEImages/book_detail-actual-laptop.PNG)
 
 
 <strong>Bag - Wireframe</strong>
@@ -108,8 +109,8 @@ Clicking on the shopping cart in the top bar will take the user to the bag. This
 
 An element lacking from the wireframe is the ability to adjust the bag at this point. The final layout chosen allows for updating quantities or removing items. The user is also given an option to return the shop for further browsing or can use the navbar to find the page of interest. Again, responsiveness is achieved by stacking elements when on small screens as demonstrated in the images below. 
 
-![Bag Page](READMEImages/bag-actual-mobile.png)
-![Bag Page](READMEImages/bag-actual-laptop.png)
+![Bag Page](READMEImages/bag-actual-mobile.PNG)
+![Bag Page](READMEImages/bag-actual-laptop.PNG)
 
 <strong>Checkout - Wireframe</strong>
 
@@ -123,8 +124,8 @@ The checkout page will contain a brief bag summary so that the customer knows wh
 All of the wireframe features were included however the layout does look slightly different. There is also an option to create an account or sign in in order to save the details. Responsiveness is achieved by stacking elements as shown in the images below.
 
 
-![Checkout Page](READMEImages/checkout-actual-mobile.png)
-![Checkout Page](READMEImages/checkout-actual-laptop.png)
+![Checkout Page](READMEImages/checkout-actual-mobile.PNG)
+![Checkout Page](READMEImages/checkout-actual-laptop.PNG)
 
 <strong>Newsletter Creation - Wireframe</strong>
 
@@ -136,8 +137,7 @@ This page is to create a simple email newsletter to those that have signed up to
 
 In retrospect, this feature would have been best implemented using a third party so that newsletter design could be prettier and more effective. However, it does look exactly as planned. 
 
-![Create Newsletter Page](READMEImages/create_newsletter-actual-mobile.png)
-![Create Newsletter Page](READMEImages/create_newsletter-actual-laptop.png)
+![Create Newsletter Page](READMEImages/create_newsletter-actual.PNG)
 
 <strong>Mailing List Sign Up - Wireframe</strong>
 
@@ -149,8 +149,7 @@ For the mailing list sign up, the user can enter their email and optionally thei
 
 The deployed version of the form looks exactly like the wireframe mock up. Along with newsletter creation, this could have been achieved implementing a third party that could assist with mail lists like mailchimp and in future, the site will transition to that. The check button is ticked by default for ease of sign up. 
 
-![Mailing List Page](READMEImages/newsletter_signup-actual-mobile.png)
-![Mailing List Page](READMEImages/newsletter_signup-actual-laptop.png)
+![Mailing List Page](READMEImages/newsletter_signup-actual-mobile.PNG)
 
 <strong>Order History - Wireframe</strong>
 
@@ -162,8 +161,7 @@ The Order History is intended to be a table of past orders that the customer can
 
 The deployed version is very much akin to the wireframe and in future, the issue of product status should be integrated to complete further user stories. 
 
-![Order History Page](READMEImages/order_history-actual-mobile.png)
-![Order History Page](READMEImages/order_history-actual-laptop.png)
+![Order History Page](READMEImages/my-profile-mobile.PNG)
 
 <hr>
 
@@ -328,15 +326,82 @@ Home Page |There is a background image that matches the facebook featured image 
 
 ## Testing
 
+### User Story Testing
+User stories have been commented on above
+
 ### Validator Testing
-- HTML [W3C Validator](https://validator.w3.org/) No Errors on the Home, Log In, Register or Book pages.
+- HTML [W3C Validator](https://validator.w3.org/) No major errors, some relating to parent-child relationships and order of the tags used. e.g. a h3 inside a span.
 
-- CSS [jigsaw validator](https://jigsaw.w3.org/css-validator/) No errors but some warnings about variable use.
+- CSS [jigsaw validator](https://jigsaw.w3.org/css-validator/) No errors found on either base.css or the checkout.css file
 
-- Python [PEP8 online validator](http://pep8online.com/) No errors beyond formatting.
+- JS [JSHint Validator](https://jshint.com/) Was used on the stripe js file resulting in no errors.
+
+- Pylint-django was used to validate python during the project. 
+
+### Functional Testing
+
+Testing is undertaken on a desktop on Chrome using the iPhone SE filter and then just normally on a 21" screen. Random testing is also carried out on microsoft edge due to time constraints - these tests are indicated by (E).
+
+<strong>Manual Testing</strong>
+
+Feature/Page| Test | Pass/Fail|
+---|---|---|
+Navbar| Clicked each link on nav bar to make sure it went to the correct place| Passed (E)|
+Navbar| Observed on every opened page from the navbar that all elements, especially buttons, were clickable.| Failed: On the genre pages, the bottom row does not always display price and rating. Only an issue on larger than mobile/tablet screens (E)|
+Footer| All social links open to the appropriate site in a new tab| Passed (E)|
+Home Page| Call to action button shows all 100 books completely | Passed (E)|
+Books Filtering| Try all the sorting filters: price, rating, book title, author | Passed|
+Books Filtering| Try all the sorting filters: price, rating, book title, author | Passed|
+Mailing List Sign Up| Used a temp mail to sign up, receive a successful message | Fail - written as a known bug|
+Mailing List Sign Up| Used a temp mail to sign up, receive a successful email | Pass but badly formatted contents|
+Mailing List Unsubscribe| Unsubsribe previous temp mail and receive a message saying unsubscribe is successful | Fail no message|
+Mailing List Unsubscribe| Check admin to see if unsubscribed | Pass, email present but booleanfield set to false|
+Create Account| Create account using temp email, look for successful message | Pass|
+Create Account| Create account using temp email, look for email verification | Pass|
+Create Account| Create account, ensure validation works with a short password | Pass|
+Create Account| Create account using already signed up email and see if it rejects attempt | Pass|
+Add Books| Add books to bag of different quantities and ensure titles, quantities and subtitles are correct and messages are working to say successfully added to bag | Pass (note, validation is on qty so a minimum of 1 book is added)|
+Add Books| Try removing and updating quantities in the bag| Pass|
+Add Books| Add 4 different titles to bag and ensure formatting is sufficient| Fail - adding more than 3 titles to the bag pushes the back to shop button off-screen on larger than mobile screens |
+Add Books| Adding the same title two separate times (in one session) results in one entry in the bag with the quantity of two| Pass|
+Checkout|Order summary is the same as the bag.| Pass |
+Checkout|Attempt to use stripe with the 4242 code and see successful message| Pass |
+Checkout|Attempt to use stripe with the 4242 code and see successful email| Fail - no email confirmation |
+Checkout|Check the save details button on checkout and then try to purchase something else| Fail - checkout data did not fill by default |
+Checkout|Adjust bag button works|Pass|
+Bag|Bag turns blue when items are added|Pass|
+Bag|Bag displays correct subtotal as items are added|Pass|
+Bag|Bag displays correct subtotal as items are added|Pass|
+Bag|Bag back to shop button works correctly|Pass|
+My profile|Order history available|Pass but really badly formatted!|
+My profile|A normal user cannot see the "create newsletter option" or navigate there using /newsletter/create with a returning message of "Sorry, only store owners can do that" |Pass|
+My profile|A super user can see the "create newsletter option" and can navigate there using /newsletter/create|Pass|
+Sign In|Form completely legible, success message, returned to home page|Pass|
+Create Newsletter|Submit the form (ensure validation works) and recieve a success message|Fail|
+Create Newsletter|Submit the form and see if the mailing list recipients receive it|Fail - all email addresses on the email list got the email regardless of whether the booleanfield was true|
+Create Newsletter|Submit the form and see if it is the same in the admin|Pass|
+Book Detail|All information legible|Pass|
+Book Detail|Keep shopping button takes you back to previous sort settings|Fail - takes you back to all books|
+Search Bar|Search bar looks at whole site for "Anne of green gables"|Fail - it only works if you're already looking at books e.g. if you were to use it on the bag, it fails.|
+Admin|Check orders placed during testing appear in admin|Pass|
+Admin|Can add books in admin (added book called Testing)|Pass(ish) - note the id needs to go up in increments e.g. 101 would be the next number. Perhaps ID should be an automated value|
+Admin|Add a book with no image to check the default works|Fail|
+Admin|Add a book and check the All Books total is now 101 |Pass|
+Admin|Can edit book details in admin (added an image url to testing)|Pass|
+Admin|Can delete books in admin (delete testing)|Pass|
+Admin|Check deleted book url redirects to 404 |Pass|
+Accounts|Check sign in, sign out forms are legible and give success/error messages as appropriate|Pass|
+
+
+
 
 ### Bugs
-- 
+- Messages from the newsletter app do not display when they are expected to be triggered
+- No order email confirmation
+- Screen testing was done on a large 22" screen and the responsive iPhone SE filter but on my laptop screen which is about 16", the navbar looks massively oversized. This doesn't affect functionality but does make the site hard to use. This was caused by my mistake when checking responsiveness using chrome and inspect, it's important to remember the screen height is proportionally larger than the average screen. Most bugs were relating to styling so an overhaul on styling should be carried out!
+- Emailing the newsletter recipients does not account for if they're subscribed or not - everyone gets the email.
+- Keep shopping button returns to "All Books" rather than the filtered searching
+- Searching only queries the page you're on rather than the books page or the whole site
 
 # Deployment
 
@@ -406,7 +471,7 @@ Generally, that walkthrough was very much the inspiration for this project. In a
 - Book store name <strong>Good On Paper</strong> was randomly generated using a [fantasy name generator](https://www.fantasynamegenerators.com/bookstore-names.php) and it felt apt for where I am at the time of doing this course! I'm disappointed with the amount of effort I was physically/mentally able to give this course and so the idea of doing it was...good on paper. Despite that, I would thoroughly recommend this course to anyone interested in software development for e-commerce applications or gaining the transferable programming skills. 
 
 - The logo (which I realise now, is not physically shown anywhere on the site except if the book cover doesn't exist) was generated using [freelogodesign.org](https://www.freelogodesign.org/).
-- The colours from the logo were used in conjunction with coolors.co
+- The purple and yellow colours are from the logo and were used in conjunction with coolors.co for the black selection
 - The dataset was taken from [data world](https://data.world/yansian/top-100-young-adult-fiction/workspace/file?filename=goodreads_Top100_YoungAdultFiction.csv) and was adjusted to add random prices between £10 and £20. It was manually adjusted as well as adjusted with a json formatter.
 - The background image used on the site and as the facebook banner was by [Sincerely Media on unsplash.com](https://unsplash.com/photos/_-hjiem5TqI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-- A number of technologies and tools were used to generate the site including font-awesome, bootstrap 4, allauth, AWS S3 bucket, django, django storages, django heroku, psycopg2, github, git, gunicorn, Boto3, Django crispy forms, Stripe, gitpod, balsamiq, JQuery, google fonts, Pillow, gmail
+- A number of technologies and tools were used to generate the site including font-awesome, bootstrap 4, bootstrap themes, allauth, AWS S3 bucket, django, django storages, django heroku, psycopg2, github, git, gunicorn, Boto3, Django crispy forms, Stripe, gitpod, balsamiq, JQuery, google fonts, Pillow, gmail
