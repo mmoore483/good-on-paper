@@ -8,6 +8,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Online UK Based Book Shop">
+  <meta name="keywords" content="Books, Book, Read, Young Adult, Fiction, Dystopia, Fantasy, Science Fiction, Romance, Adventure, Teen, Post
+    Apocalyptic, Action, Nonfiction, Classics, History, Biography, Memoir, Historical, Holocaust, Autobiography, War,
+    World War II, Historical Fiction, Young Adult, Literature, Childrens, Classic Literature, Novels, Contemporary,
+    Realistic Fiction, Coming Of Age, Drama, Love, Middle Grade, Audiobook, Canada, Mythology, Urban Fantasy, Greek
+    Mythology, Magic, School, Read For School, Paranormal, Vampires, Supernatural, Angels, LGBT, Mental Health, Time
+    Travel, Science Fiction Fantasy, Steampunk, Paranormal Romance, Mystery, Young Adult Contemporary, High School,
+    Books About Books, Young Adult Fantasy, New Adult, Chick Lit, High Fantasy, Contemporary Romance, Young Adult
+    Romance, Music, Aliens, Werewolves, Witches, Retellings, New York, Book Club, Fairy Tales, Psychology, Queer,
+    Family, Poetry, Abuse, Demons, Travel, Zombies, Young Adult Paranormal, Dragons, Mermaids, Australia, Horror, Death,
+    Apocalyptic, Thriller, Survival, Ghosts, Humor, Cultural, Magical Realism, Novella, Short Stories, Adult, Road Trip,
+    Space, Superheroes, Epic Fantasy, Realistic, Shapeshifters, College ">
   {% endblock %}
 
   {% block extra_meta %}
@@ -16,7 +28,8 @@
   {% block corecss %}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Lobster+Two&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Lobster+Two&display=swap">
   <link rel="stylesheet" href="{% static 'css/base.css' %}">
   {% endblock %}
 
@@ -25,9 +38,14 @@
 
   {% block corejs %}
   <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
   <script src="https://js.stripe.com/v3/"></script>
   {% endblock %}
 
@@ -43,7 +61,7 @@
   {% if messages %}
   <div class="message-container">
     {% for message in messages %}
-      {% include 'includes/toasts/toast_success.html' %}
+    {% include 'includes/toasts/toast_success.html' %}
     {% endfor %}
   </div>
   {% endif %}
@@ -85,7 +103,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-                <a href="{% url 'create_newsletter' %}" class="dropdown-item">Create Newsletter</a>
+              <a href="{% url 'create_newsletter' %}" class="dropdown-item">Create Newsletter</a>
               {% endif %}
               <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
               <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -96,7 +114,8 @@
             </div>
           </li>
           <li class="list-inline-item">
-            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+              href="{% url 'view_bag' %}">
               <div class="text-center">
                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                 <p class="my-0">
@@ -114,18 +133,19 @@
     </div>
     <div class="row bg-white">
       <nav class="navbar navbar-expand-lg navbar-light w-100">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          {% include 'includes/mobile-header.html' %}
-          {% include 'includes/main-nav.html' %}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+          aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        {% include 'includes/mobile-header.html' %}
+        {% include 'includes/main-nav.html' %}
       </nav>
-  </div>
-  <div id="delivery-banner" class="row text-center banner">
+    </div>
+    <div id="delivery-banner" class="row text-center banner">
       <div class="w-100">
-          <h2 class="banner-text text-black">Free delivery on orders over £{{ free_delivery_threshold }}!</h2>                
-      </div>            
-  </div>
+        <h2 class="banner-text text-black">Free delivery on orders over £{{ free_delivery_threshold }}!</h2>
+      </div>
+    </div>
   </header>
   {% block page_header %}
   {% endblock %}
@@ -139,6 +159,12 @@
         <div class="row justify-content-between align-items-center">
           <span class="col text-center">
             <h1 class="footer-text">Copyright &copy; Good On Paper 2022</h1>
+          </span>
+          <span class="col text-center">
+            <a href="https://www.privacypolicygenerator.info/live.php?token=Wpxrv5llFbBcFRYrngGjwd1TA2Ji1tnb"
+              target="_blank" rel="noopener" aria-label="privacy policy (opens in a new tab)">
+              <h3 class="text-black">Privacy Policy</h3>
+            </a>
           </span>
           <span class="col d-inline-flex justify-content-center">
             <a class="text-black" href="https://www.facebook.com/" target="_blank" rel="noopener"
@@ -156,7 +182,7 @@
         </div>
       </div>
     </div>
-</footer>
+  </footer>
 
   {% block postloadjs %}
   <script type="text/javascript">

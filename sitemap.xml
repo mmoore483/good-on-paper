@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/bag/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?sort=title&amp;direction=asc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=science&amp;sort=price&amp;direction=asc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=science&amp;sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=historical&amp;sort=price&amp;direction=asc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=historical&amp;sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=fantasy&amp;sort=price&amp;direction=asc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/?genres=fantasy&amp;sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/newsletter/mailinglist/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/26</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/20</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/88</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/74</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/72</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/6</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/80</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/52</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/43</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/29</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/91</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/39</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/11</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/27</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/37</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/50</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/60</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/70</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/89</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/96</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/97</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/98</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/79</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/100</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/38</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/46</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/21</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/82</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/4</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/25</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/73</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/32</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/5</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/34</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/35</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/61</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/12</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/28</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/30</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/94</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/59</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/63</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/87</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/18</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/64</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/57</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/42</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/65</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/83</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/48</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/49</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/1</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/69</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/78</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/36</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/8</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/55</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/90</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/66</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/40</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/68</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/92</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/93</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/17</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/24</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/45</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/47</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/23</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/58</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/95</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/22</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/7</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/67</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/75</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/99</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/44</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/14</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/53</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/86</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/62</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/3</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/2</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/19</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/13</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/51</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/76</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/16</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/33</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/84</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/15</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/81</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/56</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/10</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/77</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/71</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/85</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/9</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/54</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/41</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mm483-good-on-paper.herokuapp.com/books/31</loc>
+  <lastmod>2022-05-15T06:09:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

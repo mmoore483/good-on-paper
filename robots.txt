@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /admin/
+Disallow: https://mm483-good-on-paper.herokuapp.com/sitemap.xml
